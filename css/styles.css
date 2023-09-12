@@ -101,7 +101,7 @@ body {
 .menu-link {
     display: block;
     position: relative;
-    color: #404bbf;
+    color: #2E2F42;
     /* Body Medium */
     font-size: 16px;
     font-weight: 500;
@@ -114,7 +114,7 @@ body {
 }
 .menu-link::after {
     display: block;
-    width: max-content;
+    width: 100%;
     height: 4px;
     left: 0;
     bottom: -1px;
@@ -145,11 +145,10 @@ body {
     display: block;
     color: #434455;
     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 /* Body Medium */
-font-size: 16px;
-line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
 /* 150% */
 letter-spacing: 0.32px;
 }
