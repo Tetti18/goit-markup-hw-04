@@ -529,12 +529,19 @@ letter-spacing: 0.32px;
         margin-bottom: 16px;
 
 }
+.logotext-footer {
+    margin-right: 120px;
+}
 .footer-container {
     display: flex;
     justify-content: space-between;
     gap: 120px;
     align-items: baseline;
     margin-right: 120px;
+}
+.social-list-footer {
+    display: flex;
+    gap: 16px;
 }
 .social-list-link-footer {
         width: 100%;
