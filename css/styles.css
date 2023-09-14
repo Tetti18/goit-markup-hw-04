@@ -38,7 +38,6 @@ button:hover {
     background-color: #404BBF;
 }
 button:focus {
-    color: #404BBF;
     background-color: #404BBF;
 }
 .container {
@@ -101,7 +100,7 @@ body {
 .menu-link {
     display: block;
     position: relative;
-    color: #404bbf;
+    color: #2E2F42;
     /* Body Medium */
     font-size: 16px;
     font-weight: 500;
@@ -109,10 +108,26 @@ body {
     /* 150% */
     letter-spacing: 0.32px;
     padding: 24px 0;
-    transition: color 250ms ease-out;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link::after {
+.menu-link:hover,
+.menu-lik:focus {
+    color: #404BBF;
+}
+.menu-link-studio {
+        display: block;
+        position: relative;
+        color: #404bbf;
+        /* Body Medium */
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.32px;
+        padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-link-studio::after {
     display: block;
     width: 100%;
     height: 4px;
@@ -125,8 +140,8 @@ body {
     content: '';
     position: absolute;
 }
-.menu-link:hover,
-.menu-link:focus {
+.menu-link-studio:hover,
+.menu-link-studio:focus {
     color: #404BBF
 }
 .page-address {
@@ -170,6 +185,7 @@ letter-spacing: 0.32px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 
 
 
@@ -184,7 +200,6 @@ letter-spacing: 0.32px;
     /* 107.143% */
     letter-spacing: 1.12px;
     text-align: center;
-    background-color: #2e2f42;
     max-width: 496px;
 }
 .buttonhero {
@@ -244,7 +259,6 @@ letter-spacing: 0.32px;
     margin-bottom: 8px;
 }
 .technologies-icon {
-    margin: 0 auto;
 }
 .titlesecond {
     padding-top: 120px;
@@ -491,15 +505,8 @@ letter-spacing: 0.32px;
 }
 
 .page-footer {
-    display: flex;
     background-color: #2e2f42;
     padding: 100px 0;
-    align-items: center;
-    justify-content: space-between;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 1)
-        rgba(46, 47, 66, 1)
-    );
 }
 .textfooter {
     width: 264px;
@@ -535,7 +542,6 @@ letter-spacing: 0.32px;
 }
 .footer-container {
     display: flex;
-    justify-content: space-between;
     gap: 120px;
     align-items: baseline;
     margin-right: 120px;
