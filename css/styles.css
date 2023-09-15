@@ -53,9 +53,6 @@ button:focus {
 .page-navigation {
     display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 453px;
-    justify-content: space-between;
 }
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -253,10 +250,10 @@ letter-spacing: 0.32px;
     justify-content: center;
     align-items: center;
     background-color: #F4F4FD;
-    width: 264px;
     height: 112px;
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid #8E8F99;
 }
 .technologies-icon {
 }
@@ -542,9 +539,6 @@ letter-spacing: 0.32px;
 }
 .footer-container {
     display: flex;
-    gap: 120px;
-    align-items: baseline;
-    margin-right: 120px;
 }
 .social-list-footer {
     display: flex;
