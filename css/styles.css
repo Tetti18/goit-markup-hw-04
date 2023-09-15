@@ -539,6 +539,7 @@ letter-spacing: 0.32px;
 }
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 .social-list-footer {
     display: flex;
